@@ -1,0 +1,96 @@
+/* Apply box-sizing border-box model to all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Reset default margin and padding for the body */
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+/* Heading styles with margin reset and adjusted font sizes */
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+/* Code styling with increased font size */
+code {
+  font-size: 1.2em;
+}
+
+/* List styling with left padding */
+ul {
+  padding-inline-start: 20px;
+}
+
+/* Apply box-sizing border-box model again (redundant) */
+* {
+  box-sizing: border-box;
+}
+
+/* Board square styling for a tic-tac-toe game */
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+/* Clearfix for board rows */
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/* Margin for game status */
+.status {
+  margin-bottom: 10px;
+}
+
+/* Flexbox styling for the game and game information sections */
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Margin for game information */
+.game-info {
+  margin-left: 20px;
+}
